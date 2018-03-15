@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
+To run this client:
+ * first execute the server project TechTestServer e.g. `mvn package && java -jar target/gs-spring-boot-0.1.0.jar`
+  (There is an intelliJ run configuration providedd)
+ * then invoke this client e.g. `ng serve -o`
+ * Click the _FizzBuzz_ button to submit the next integer value (starts with 1)
+ * Click the _Reset_ button to reset and click the _FizzBuzz_ button to start again with 1
+ 
+NB use a Chrome browser with CORS plugin enabled to avoid XSS issues.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
