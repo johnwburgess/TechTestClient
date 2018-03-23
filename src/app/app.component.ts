@@ -27,7 +27,7 @@ export class AppComponent {
   // On completion update the response (the content property is bound to view)
   getFizzBuzz(): void {
     this.fizzBuzzService.getFizzBuzz(++this.inputInteger)
-      .then( fizzbuzz => this.fizzbuzz = fizzbuzz);
+      .then( fizzbuzz => this.fizzbuzz = fizzbuzz );
   }
 
   // Reset to 0 the numeric value to be sent to the service
